@@ -211,3 +211,7 @@ sh ./deploy.sh
 ## ⭐ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=imsyy/DailyHotApi&type=Date)](https://star-history.com/#imsyy/DailyHotApi&Date)
+
+
+BuildDocker
+docker buildx build --platform linux/arm64,linux/amd64 --push -t crpi-15hlobcjochkjfsa.cn-hangzhou.personal.cr.aliyuncs.com/flying-ai/daily-hot-api:v1 .
